@@ -17,6 +17,8 @@ public class SizeFitter
     {
         content.transform.SetParent(parent.transform);
         content.transform.localPosition = new Vector3(0,0,0);
-       
+        content.transform.localScale = new Vector3(1, 1, 1);
+
+
     }
 }

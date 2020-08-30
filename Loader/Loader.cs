@@ -10,7 +10,7 @@ public class Loader :MonoBehaviour,ILoader
     public string context;
     public bool done=false;
 
-    public virtual string getContext()
+    public virtual string GetContext()
     {
         return context;
     }
@@ -29,7 +29,7 @@ public class Loader :MonoBehaviour,ILoader
 
         });
 
-
+      
             
     }
     public ILoader GetLoader()
